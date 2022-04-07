@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:elevation="10dp"
+        android:background="@drawable/btn"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_margin="70dp"
+        android:src="@drawable/disleaf"></ImageView>
+    <TextView
+        android:id="@+id/nxt1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="BLACK SPOT"
+        android:background="@drawable/btn"
+        android:elevation="2dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Black spot is a fungal disease commonly found on roses, but also on other flowers and fruits. While it doesn’t kill plants outright, it weakens them and makes them susceptible to other problems. In cool, moist weather, small black spots appear on foliage, which starts to turn yellow and eventually drops off"
+        android:elevation="2dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:textSize="18dp">
+
+    </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_margin="25dp"
+            android:elevation="5dp"
+            android:background="@drawable/btn1"></LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

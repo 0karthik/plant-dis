@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="districts">
+            <item>Chennai</item>
+            <item>Kanchipuram</item>
+            <item>Chengalpattu</item>
+            <item>Madurai</item>
+            <item>Coimbatore</item>
+            <item>Tirunelveli</item>
+            <item>Kanyakumari</item>
+            <item>Vellore</item>
+        </string-array>
+</resources>
