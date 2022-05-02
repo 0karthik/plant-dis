@@ -50,7 +50,7 @@
             android:src="@drawable/cam1"></ImageView>
     </LinearLayout>
     <TextView
-        android:background="@drawable/btn"
+        android:background="@drawable/btn1"
         android:layout_gravity="center"
         android:layout_width="300dp"
         android:layout_height="70dp"
